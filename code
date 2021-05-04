@@ -11,11 +11,11 @@ def countdown(count_t):
         time.sleep(1)
         count_t -= 1
       
-    print('Fire in the hole!!')
+    print('time elapsed!!!'.upper())
   
   
 # input time in seconds
 count_t = input("Enter the time in seconds: ")
-  
+print("Counting...")
 # function call
 countdown(int(count_t))
